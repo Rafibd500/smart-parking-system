@@ -48,7 +48,9 @@ class ParkingSlot {
         this.parkedVehicle = null;
     }
 
-    public int getSlotId() { return slotId; }
+    public int getSlotId() { 
+        return slotId; 
+    }
     
     public Vehicle getParkedVehicle() { 
         return parkedVehicle; 
@@ -178,7 +180,7 @@ class SmartParking extends ParkingSystem {
 public class Main {
     public static void main(String[] args) {
         Scanner mainScanner = new Scanner(System.in);
-        SmartParking parkingManager = new SmartParking(5);
+        SmartParking parkingManager = new SmartParking(10);
 
         boolean exit = false;
         while (!exit) {
