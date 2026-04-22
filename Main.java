@@ -208,7 +208,7 @@ public class Main {
                     exit = true;
                     break;
                 default:
-                    System.out.println("⚠️ Invalid input, please try again.");
+                    System.out.println("Invalid input, please try again.");
             }
         }
         mainScanner.close();
